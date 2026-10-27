@@ -34,7 +34,7 @@
 
 <h1>Exercise Habit — Privacy Policy</h1>
 <p class="meta">
-  Effective date: October 15, 2026<br>
+  Effective date: October 27, 2026<br>
   Last updated: October 15, 2026
 </p>
 
@@ -77,8 +77,10 @@
 <ul>
   <li><strong>Notifications</strong>: to show the daily reminder and the bedtime reminder.</li>
   <li><strong>Run at startup</strong>: to reschedule reminders after the device restarts.</li>
-  <li><strong>Vibration</strong>: for side-switch cues in the guided timer and for reminder notifications.</li>
-  <li><strong>Keep awake</strong>: to keep the screen on during the guided timer, and to handle notification buttons in the background.</li>
+  <li><strong>Vibration</strong>: for segment-change cues in the guided timer and for reminder notifications.</li>
+  <li><strong>Keep awake</strong>: to keep the screen on during the guided timer; to keep segment cues on time during the outdoor timer while the screen is off; and to handle notification buttons in the background.</li>
+  <li><strong>Foreground service (health type)</strong>: for the outdoor timer (walking and walk to run). It keeps timing when you leave the app or turn off the screen, and shows the current segment and time left in the notification bar. It stops when the timer ends.</li>
+  <li><strong>High sampling rate sensors</strong>: Android requires health-type foreground services to declare one of a set of permissions, and this is one of them. <strong>The app does not read any sensor</strong> and does not record steps, heart rate or location.</li>
   <li><strong>Network state</strong>: declared by the built-in video player component. The app has no internet permission and cannot connect.</li>
 </ul>
 <p>The app requests no other permissions.</p>
