@@ -35,14 +35,14 @@
 <h1>Exercise Habit — Privacy Policy</h1>
 <p class="meta">
   Effective date: October 27, 2026<br>
-  Last updated: October 30, 2026
+  Last updated: November 17, 2026
 </p>
 
 <h2>Summary</h2>
 <p class="lead">
   This app has no accounts and no servers of its own. Everything you enter is stored only on your device,
   and the developer cannot access it. The free version shows ads served by Google AdMob, and the full version
-  is bought through Google Play. Neither of them receives your habits, check-ins or notes.
+  is bought through the store (Google Play on Android, the App Store on iPhone). Neither of them receives your habits, check-ins or notes.
 </p>
 
 <h2>Information you enter</h2>
@@ -55,6 +55,14 @@
   The app has no sign-in and no cloud sync. Uninstalling the app or clearing its data
   permanently deletes this information; it cannot be recovered.
 </p>
+<p>
+  <strong>Exporting a backup</strong>: when you choose to export a backup in Settings, the app creates a backup file and
+  you decide where to save it or whom to share it with. The file never passes through the developer.
+</p>
+<p>
+  <strong>Home screen widget</strong>: shows whether you have checked in today and today's goal. The app writes this on your
+  device for the widget to read; it is never uploaded.
+</p>
 
 <h2>Network</h2>
 <p>The app connects to the internet only for the following. Your records are never sent.</p>
@@ -63,7 +71,7 @@
   <li><strong>Ad consent</strong>: before any ad is loaded, the app asks Google whether users in your region must be asked
     for advertising consent first (the EU and the UK require this). The answer is based on your IP address;
     the app never reads your location. A consent form appears only where one is required.</li>
-  <li><strong>Checking your purchase</strong> with Google Play (see "Purchases").</li>
+  <li><strong>Checking your purchase</strong> with the store (Google Play on Android, the App Store on iPhone; see "Purchases").</li>
 </ul>
 <p>Exercise demonstration videos and images are bundled inside the app.</p>
 
@@ -73,17 +81,21 @@
   When you tap a button on a notification, the record is written directly to the data on your device.
 </p>
 
-<h2>Android backup</h2>
+<h2>Device backup</h2>
 <p>
-  If you have Google backup turned on, Android may back up this app's records and settings to your
+  Android: if you have Google backup turned on, Android may back up this app's records and settings to your
   Google account. This is governed by Google's privacy policy; the developer cannot access it.
+</p>
+<p>
+  iPhone: if you back up your iPhone to iCloud or to a computer, this app's data is included with the rest of the device.
+  Apple keeps it in your Apple Account under its own policy; the developer cannot access it.
 </p>
 
 <h2>Ads (Google AdMob)</h2>
 <p>Users who have not bought the full version see banner ads, served by <strong>Google AdMob</strong>.</p>
 <p>To deliver ads, Google accesses information on your device, which may include:</p>
 <ul>
-  <li>Advertising ID</li>
+  <li>Advertising ID (on Android; the iPhone version never asks for tracking permission, so Google cannot get your iPhone's advertising identifier)</li>
   <li>Basic device and app information (model, OS version, language, approximate region)</li>
   <li>Ad impressions and clicks</li>
 </ul>
@@ -96,26 +108,31 @@
 <p>
   <strong>You can limit ad tracking</strong>: Android's Settings → Google → Ads lets you delete your advertising ID
   and turn off ad personalisation. You will still see ads, just less relevant ones.
+  The iPhone version does not track you and never shows the "Allow tracking" prompt.
 </p>
 <p><strong>Buying the full version removes all ads.</strong></p>
 
 <h2>Purchases</h2>
 <p>
-  The full version is a one-time purchase, completed entirely on <strong>Google Play</strong>'s own screens.
+  The full version is a one-time purchase, completed entirely on the store's own screens
+  (<strong>Google Play</strong> on Android, the <strong>App Store</strong> on iPhone).
   You never enter card details in this app, and the developer never sees your card number, billing address or
-  any payment details. Google handles that data under its own privacy policy.
+  any payment details. Google or Apple handles that data under its own privacy policy.
 </p>
 <p>
-  To know whether you have bought the full version, the app asks Google Play each time it starts and remembers the
+  To know whether you have bought the full version, the app asks the store each time it starts and remembers the
   answer on your device, so the full version keeps working offline. No other purchase service is used.
-  Because the purchase is tied to your Google account, it can be restored after you reinstall or change phones.
+  Because the purchase is tied to your Google account or Apple Account, it can be restored after you reinstall or change phones.
+  On iPhone, tapping "Restore purchase" asks the App Store to sync your purchases, which may ask you to sign in to your
+  Apple Account; Apple handles the sign-in and the app never sees your account details.
 </p>
 <p>
-  Refunds are handled by Google Play. Once a refund completes, the full version is removed the next time
-  the app checks with Google Play.
+  Refunds are handled by Google Play or Apple. Once a refund completes, the full version is removed the next time
+  the app checks with the store.
 </p>
 
 <h2>Permissions</h2>
+<h3>Android</h3>
 <ul>
   <li><strong>Notifications</strong>: to show the daily reminder and the bedtime reminder.</li>
   <li><strong>Run at startup</strong>: to reschedule reminders after the device restarts.</li>
@@ -127,7 +144,12 @@
   <li><strong>Advertising ID</strong>: lets Google AdMob use the advertising ID to deliver ads (see "Ads").</li>
   <li><strong>Google Play billing</strong>: to buy and restore the full version.</li>
 </ul>
-<p>The app requests no other permissions.</p>
+<h3>iPhone</h3>
+<ul>
+  <li><strong>Notifications</strong>: to show the daily reminder and the bedtime reminder; during the outdoor timer, notifications announce segment changes if the system has paused the app.</li>
+  <li><strong>Background audio</strong>: for the outdoor timer (walking and walk to run). It keeps timing and plays segment cues when you leave the app or lock the screen, and stops when the timer ends.</li>
+</ul>
+<p>The iPhone version needs no separate permission for the network or App Store purchases. The app requests no other permissions.</p>
 
 <h2>What the app does not do</h2>
 <ul>
@@ -146,8 +168,8 @@
 <h2>Retention and deletion</h2>
 <ul>
   <li><strong>What you enter</strong>: stays on your device until you clear the app's data or uninstall the app.</li>
-  <li><strong>Advertising data</strong>: retained and deleted by Google under its own policy; you can control it through the Android ad settings described above.</li>
-  <li><strong>Purchase records</strong>: retained by Google Play under its own policy. This is what lets your purchase be restored after you reinstall.</li>
+  <li><strong>Advertising data</strong>: retained and deleted by Google under its own policy; on Android you can control it through the ad settings described above.</li>
+  <li><strong>Purchase records</strong>: retained by Google Play or Apple under its own policy. This is what lets your purchase be restored after you reinstall.</li>
 </ul>
 <p>The developer keeps no user data.</p>
 
