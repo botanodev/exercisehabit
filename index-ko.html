@@ -69,6 +69,16 @@
   .stores b { font-size: 1.05rem; white-space: nowrap; }
 
   .wrap { padding: 0 20px 64px; }
+  .photos { display: grid; gap: 14px; margin: 28px 0 0; align-items: start; }
+  .photos.n2 { grid-template-columns: 1fr 1fr; }
+  .photos figure { margin: 0; }
+  .photos img {
+    display: block; width: 100%; height: auto; border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,.14);
+  }
+  .photos figcaption { color: var(--muted); font-size: .86rem; margin-top: 8px; line-height: 1.5; }
+  /* 長圖很長：手機上限制寬度，不然要滑很久才看到內文 */
+  .photos .long { max-width: 220px; margin: 0 auto; }
   .desc { margin-top: 28px; }
   .desc h2 { font-size: 1.08rem; margin: 36px 0 10px; }
   .desc p { margin: 0 0 14px; }
@@ -111,6 +121,7 @@
     <a href="https://apps.apple.com/app/id6837182764"><small>iPhone</small><b>App Store</b></a>
   </div>
 
+  
   <div class="desc">
 <h2>주요 기능</h2>
 <ul><li>4가지 질문에 답하면 나에게 맞는 습관을 가장 쉬운 단계부터 시작합니다</li><li>매일 두 가지 선택: 조금씩 어려워지는 오늘의 목표와 1분도 안 걸리는 최소량</li><li>14일 동안 목표를 10번 달성하면 다음 단계를 제안하고, 힘들 때는 한 단계 내려갈 수도 있습니다</li></ul>
