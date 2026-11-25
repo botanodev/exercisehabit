@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>運動習慣養成 Exercise Habit</title>
+<meta name="description" content="給討厭運動、容易忘記的人。每天的最低限度不到一分鐘，生病那天也做得到。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="運動習慣養成 Exercise Habit">
+<meta property="og:description" content="給討厭運動、容易忘記的人。每天的最低限度不到一分鐘，生病那天也做得到。">
+<meta property="og:image" content="https://botanodev.github.io/exercisehabit/icon.png">
+<meta property="og:url" content="https://botanodev.github.io/exercisehabit/index-zh.html">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="icon.png">
+<link rel="alternate" hreflang="en" href="https://botanodev.github.io/exercisehabit/">
+<link rel="alternate" hreflang="zh-Hant" href="https://botanodev.github.io/exercisehabit/index-zh.html">
+<link rel="alternate" hreflang="ja" href="https://botanodev.github.io/exercisehabit/index-ja.html">
+<link rel="alternate" hreflang="ko" href="https://botanodev.github.io/exercisehabit/index-ko.html">
+<link rel="alternate" hreflang="x-default" href="https://botanodev.github.io/exercisehabit/">
+
+<style>
+  :root {
+    --bg: #F5F7F4; --ink: #1A1D18; --muted: #4A5147; --hair: #DCE0D8;
+    --brand: #5273A8; --green: #4C7A3F; --card: #FFFFFF;
+    --btn: #1A1D18; --btnink: #FFFFFF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101410; --ink: #E2E5DC; --muted: #B3BCAC; --hair: #2B322A;
+      --green: #9DD48B; --card: #171B16;
+      --btn: #E2E5DC; --btnink: #101410;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: system-ui, "Noto Sans TC", "Noto Sans JP", "Noto Sans KR", sans-serif;
+    line-height: 1.75; -webkit-font-smoothing: antialiased;
+  }
+  header { background: var(--brand); color: #fff; padding: 20px 20px 36px; }
+  header .inner, .wrap { max-width: 40rem; margin: 0 auto; }
+  header .bar {
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 10px; flex-wrap: wrap; margin-bottom: 28px; font-size: .9rem;
+  }
+  header .bar a { color: #DCE4F2; text-decoration: none; }
+  header .bar strong { color: #fff; }
+  header .bar nav { display: flex; gap: 12px; flex-wrap: wrap; }
+  header .app { display: flex; gap: 16px; align-items: center; }
+  header img {
+    width: 76px; height: 76px; border-radius: 18px; flex: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,.18);
+  }
+  header h1 { margin: 0; font-size: 1.6rem; line-height: 1.3; letter-spacing: -.01em; }
+  header h1 small { display: block; font-size: .9rem; font-weight: 400; color: #DCE4F2; }
+  header .line { margin: 18px 0 0; color: #EEF2F9; font-size: 1.02rem; }
+
+  .stores {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+    margin: -22px 0 8px; position: relative;
+  }
+  .stores a, .stores span {
+    display: block; padding: 11px 14px; text-decoration: none;
+    border-radius: 12px; line-height: 1.25; text-align: center;
+  }
+  .stores a { background: var(--btn); color: var(--btnink); box-shadow: 0 2px 8px rgba(0,0,0,.15); }
+  .stores span { background: var(--card); color: var(--muted); border: 1px solid var(--hair); }
+  .stores small { display: block; font-size: .75rem; opacity: .75; }
+  .stores b { font-size: 1.05rem; white-space: nowrap; }
+
+  .wrap { padding: 0 20px 64px; }
+  .desc { margin-top: 28px; }
+  .desc h2 { font-size: 1.08rem; margin: 36px 0 10px; }
+  .desc p { margin: 0 0 14px; }
+  .desc ul, .desc ol { margin: 0 0 14px; padding-left: 1.3em; }
+  .desc li { margin-bottom: 6px; }
+  .desc li::marker { color: var(--green); }
+
+  footer {
+    margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--hair);
+    color: var(--muted); font-size: .92rem;
+  }
+  footer a { color: var(--green); }
+  footer p { margin: 0 0 10px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <div class="bar">
+      <a href="/index-zh.html">&larr; Botano</a>
+      <nav>
+        <a href="./?en">English</a>
+        <strong>中文</strong>
+        <a href="index-ja.html">日本語</a>
+        <a href="index-ko.html">한국어</a>
+      </nav>
+    </div>
+    <div class="app">
+      <img src="icon.png" alt="" width="76" height="76">
+      <h1>運動習慣養成<small>Exercise Habit</small></h1>
+    </div>
+    <p class="line">給討厭運動、容易忘記的人。每天的最低限度不到一分鐘，生病那天也做得到。</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="stores">
+    <a href="https://play.google.com/store/apps/details?id=com.botano.exercisehabit"><small>Android</small><b>Google Play</b></a>
+    <a href="https://apps.apple.com/app/id6837182764"><small>iPhone</small><b>App Store</b></a>
+  </div>
+
+  <div class="desc">
+<p>你不是不想運動，只是每次都忘記，或是覺得今天太累、明天再說。</p>
+<p>這個 App 不教你怎麼練，只幫你每天開始動。</p>
+<h2>門檻低到生病在家也做得到</h2>
+<p>每個習慣都有兩條線：</p>
+<ul><li>維持運動：走 100 步、扶牆伏地挺身 1 下、伸展一個動作 20 秒。累的時候做這個就算數</li><li>今日目標：比維持運動多一點，一週做到 2 次就好</li></ul>
+<p>今天狀況好就做目標，狀況不好就做維持運動。兩種都會記在日曆上，只要有動，那一天就不會空白。</p>
+<h2>不知道從哪個開始？回答 4 個問題</h2>
+<p>想成為什麼樣的人、最討厭運動的哪一點、在哪裡運動、目前的狀態。App 會推薦 2 到 3 個適合你的習慣，附上推薦的理由。</p>
+<p>也可以直接看全部 10 種：散步、從走到跑、室內踏步、踏步開合跳、伸展、深蹲、伏地挺身、平板支撐、啞鈴彎舉、踏凳。完整版再多 4 種：捲腹、臀橋、弓箭步、啞鈴肩推。</p>
+<h2>幫你記得</h2>
+<ul><li>自己寫一句「我想成為＿＿＿的人」，和一句「在＿＿＿之後，我就去運動」</li><li>建議一個放在家裡的實體提示物，看到它就想起來；每三週提醒你換個樣子，免得看久了視而不見</li><li>每天固定時間提醒你，通知上就能直接記下維持運動</li><li>睡前還沒動的話，再提醒一次；當天已經記過就不吵你</li><li>桌面小工具，一眼看到今天動了沒</li></ul>
+<h2>跟著做就好</h2>
+<p>計時的動作有倒數、計時與換邊提示，不用自己盯著時鐘。每個動作都有步驟、常見錯誤與做不到時的替代做法。</p>
+<h2>一階一階慢慢來</h2>
+<p>持續兩週沒中斷、累積完成目標 10 次，App 會問你要不要升一級。要不要升由你決定，不想升就維持原本的。</p>
+<h2>沒有懲罰</h2>
+<p>沒動的那天，日曆就是留白，不會打叉、不會有紅字。只做了維持運動的日子也是好日子，App 會幫你算出來，讓你看到自己靠一點點撐住了多少天。</p>
+<h2>看見自己一路的進步（完整版）</h2>
+<p>最近 12 週每週動了幾天、每一階走了多久、每個週期的回顧，連你打卡時寫下的那句話都在。</p>
+<h2>不需要帳號</h2>
+<p>不用註冊、不用登入。打卡、提醒、日曆都不需要網路，所有紀錄只存在你自己的手機裡。可以匯出備份，換手機時帶著走。</p>
+<h2>免費與完整版</h2>
+<p>10 種習慣的前兩階、打卡、提醒、日曆、備份，永遠免費。免費版會顯示廣告。完整版一次買斷、不是訂閱：多 4 種習慣、解鎖所有階段、進步與統計、配色主題，並移除廣告。</p>
+<p>有心血管疾病、關節問題或懷孕的人，開始前請先諮詢醫師。運動中感到疼痛（不是痠）、頭暈或喘不過氣就停下來。</p>
+  </div>
+
+  <footer>
+    <p>有問題或建議，可以在 App 裡的「設定 → 意見與支援」寄給我，或寄到 <a href="mailto:botanodev@gmail.com">botanodev@gmail.com</a>。</p>
+    <p><a href="/exercisehabit/privacy-zh.html">隱私權政策</a> &middot; <a href="/exercisehabit/privacy-en.html">English</a></p>
+    <p><a href="/index-zh.html">Botano 的其他 App</a></p>
+  </footer>
+</div>
+</body>
+</html>
